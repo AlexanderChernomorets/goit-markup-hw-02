@@ -1,0 +1,75 @@
+/* главный цвет фона страницы (background) : #E5E5E5 */
+/* цвет фона первой секции (background) : #2F303A  */
+/* цвет заголовка h1, фон хедера : #FFFFFF */
+/* главный текст страницы (primary-text) : #212121 */
+/* второстепенный текст страницы (secondary-text) :#757575 */
+/* акцент наведения (accent-text) : #757575 */
+/* logo:Web : #2196F3 logo:Studio: #000000 */
+
+/* СТИЛИ ХЕДЕРА */
+.header {
+    background-color: #fff;
+    
+}
+.logo {
+    color: #000000;
+}
+.accent-logo {
+    color: #2196F3;
+}
+.nav-link {
+    color: #212121;
+}
+.nav-link:hover {
+    color: #2196F3;
+}
+.header-link {
+    color: #757575 ;
+}
+.header-link:hover {
+    color: #2196F3;
+}
+/* ПЕРВАЯ СЕКЦИЯ */
+.solution {
+    background-color: #2F303A;
+}
+.solution-text {
+    color: #fff;
+}
+.button {
+    background-color: #2196F3;
+    color: #fff;
+    
+}
+/* ВТОРАЯ СЕКЦИЯ */
+.peculiarities {
+    
+}
+.pec-tittle,
+.box-tittle,
+.team-subtittle,
+.team-tittle,
+.port-tittle {
+    color: #212121 ;
+}
+.pec-text,
+.team-text,
+.port-text {
+    color: #757575 ;
+}
+/* ФУТЕР */
+.footer {
+    background-color: #2F303A;
+}
+.logo-foot {
+    color: #fff;
+}
+.foot-text {
+    color: #fff;
+}
+.foot-link {
+    color: rgb(100%,100%,100%,60%);
+    
+}
+
+КНОПКИ ПОРТФОЛИО!!!
