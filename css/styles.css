@@ -7,69 +7,210 @@
 /* logo:Web : #2196F3 logo:Studio: #000000 */
 
 /* СТИЛИ ХЕДЕРА */
+:root {
+    --main-white-color: #FFFFFF;
+    --logo-col-one: #000000;
+    --accent: #2196F3;
+    --solution-bg: #2F303A;
+    --primary-text: #212121;
+    --secondary-text: #757575;
+    --btn-port-col: #F5F4FA;
+
+}
+body {
+    font-family: Roboto, sans-serif;
+
+}
+
+ul {
+    list-style: none;
+}
+
 .header {
-    background-color: #fff;
+    background-color: var(--main-white-color);
     
 }
-.logo {
-    color: #000000;
+.logo,
+.accent-logo {
+    color: var(--logo-col-one);
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
 }
 .accent-logo {
-    color: #2196F3;
+    color: var(--accent);
 }
 .nav-link {
-    color: #212121;
+    color: var(--primary-text);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
-.nav-link:hover {
-    color: #2196F3;
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--accent);
 }
 .header-link {
-    color: #757575 ;
+    color: var(--secondary-text) ;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
-.header-link:hover {
-    color: #2196F3;
+.header-link:hover,
+.header-link:focus {
+    color: var(--accent);
 }
 /* ПЕРВАЯ СЕКЦИЯ */
-.solution {
-    background-color: #2F303A;
+.hero {
+    background-color: var(--solution-bg);
 }
-.solution-text {
-    color: #fff;
+.hero-text {
+    color: var(--main-white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    
 }
 .button {
-    background-color: #2196F3;
-    color: #fff;
+    background-color: var(--accent);
+    color: var(--main-white-color);
+    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    
     
 }
 /* ВТОРАЯ СЕКЦИЯ */
 .peculiarities {
     
 }
-.pec-tittle,
-.box-tittle,
-.team-subtittle,
-.team-tittle,
-.port-tittle {
-    color: #212121 ;
+
+
+
+.port-title {
+    color: var(--primary-text);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
 }
-.pec-text,
-.team-text,
-.port-text {
-    color: #757575 ;
+.team-title,
+.box-title  {
+    color: var(--primary-text) ;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.pec-subtitle {
+    color: var(--primary-text);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+}
+.team-subtitle {
+    color: var(--primary-text);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+
+.pec-text {
+    color: var(--secondary-text);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.team-text {
+    color: var(--secondary-text);
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    
+}
+.port-text{
+    color: var(--secondary-text) ;
+    
 }
 /* ФУТЕР */
 .footer {
-    background-color: #2F303A;
+    background-color: var(--solution-bg);
 }
 .logo-foot {
-    color: #fff;
+    color: var(--main-white-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
 }
 .foot-text {
-    color: #fff;
+    color: var(--main-white-color);
+    
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    
+   
 }
 .foot-link {
     color: rgb(100%,100%,100%,60%);
-    
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.foot-link:hover,
+.foot-link:focus {
+    color: var(--accent);
 }
 
-КНОПКИ ПОРТФОЛИО!!!
+.adress {
+    font-style: normal;
+}
+.port-list {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    
+}
+.port-btn {
+    background-color: var(--btn-port-col);
+    color: var(--primary-text);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    font-style: normal;
+}
+.port-btn:hover,
+.port-btn:focus {
+    background-color: var(--accent);
+    color: var(--main-white-color);
+}
+
+.button,
+.port-btn {
+    border: none;
+    cursor: pointer;
+}
+
+.port-link {
+    text-decoration: none;
+}
