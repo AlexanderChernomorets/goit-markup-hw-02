@@ -15,7 +15,7 @@
     --primary-text: #212121;
     --secondary-text: #757575;
     --btn-port-col: #F5F4FA;
-
+    --team-bg-color: #F5F4FA;
 }
 body {
     font-family: Roboto, sans-serif;
@@ -54,6 +54,12 @@ ul {
 .nav-link:focus {
     color: var(--accent);
 }
+.active{
+    color: #2196F3;
+}
+
+
+
 .header-link {
     color: var(--secondary-text) ;
     font-weight: 500;
@@ -93,6 +99,16 @@ ul {
 .peculiarities {
     
 }
+.visually-hidden { position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px; }"
 
 
 
@@ -145,6 +161,9 @@ ul {
 .port-text{
     color: var(--secondary-text) ;
     
+}
+.section-team {
+    background-color: var(--btn-port-col);
 }
 /* ФУТЕР */
 .footer {
