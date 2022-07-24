@@ -55,7 +55,7 @@ ul {
     color: var(--accent);
 }
 .active{
-    color: #2196F3;
+    color: var(--accent);
 }
 
 
@@ -120,7 +120,7 @@ ul {
     letter-spacing: 0.06em;
 }
 .team-title,
-.box-title  {
+.box-title {
     color: var(--primary-text) ;
     font-size: 36px;
     line-height: 1.16;
@@ -231,5 +231,6 @@ ul {
 }
 
 .port-link {
+    color: var(--primary-text);
     text-decoration: none;
 }
